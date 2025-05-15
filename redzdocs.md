@@ -1,6 +1,6 @@
 ## Ui Lib
 ```lua
-local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/Library-ui/refs/heads/main/Redzhubui"))()
+local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/horizonlib/RedzLibV5/refs/heads/main/Source.lua"))()
 ```
 
 ## Window
@@ -20,6 +20,11 @@ Window:AddMinimizeButton({
 })
 ```
 
+## Tab
+```lua
+local Tab1 = Window:MakeTab({"Um", "cherry"})
+```
+
 ## Discord invite
 ```lua
 Tab1:AddDiscordInvite({
@@ -28,12 +33,6 @@ Tab1:AddDiscordInvite({
     Logo = "rbxassetid://18751483361",
     Invite = "Link discord invite",
 })
-```
-
-
-## Tab
-```lua
-local Tab1 = Window:MakeTab({"Um", "cherry"})
 ```
 
 ## Set theme
